@@ -1,0 +1,85 @@
+/*
+
+You will build an application for your Neighborhood Library. The
+library is a free service to anyone in your neighborhood and is based
+on the honor system. Anyone can check out a book, they just enter
+their name and the application will track who checked it out.
+Create a new GitHub project named neighborhood-library and
+clone it to your workshop’s directory.
+Read all the project requirements before you begin to code. Use
+your notebook to design and plan your project.
+Remember to commit and push your code frequently (at minimum
+twice a day).
+
+REQUIREMENTS
+    • Create a Book class with appropriate getters, setters, constructors        DONE
+    and methods. The class should have the following properties:
+        o Properties
+            - id: int
+            - isbn: String
+            - title: String
+            - isCheckedOut: boolean
+            - checkedOutTo: String
+        o Methods
+            - checkOut(name)
+            - checkIn()
+
+    • Use an array to hold an inventory of at least 20 books of your               DONE
+    choice
+
+    • When a book is checked out                                                   DONE
+        o the books checkedOutTo variable should be set to the
+        name provided
+        o the isCheckedOut variable should be set to true
+
+    • When a book is checked in                                                    DONE
+        o the books checkedOutTo variable should be set to ""
+        o the isCheckedOut variable should be set to false
+
+SCREENS
+    • The Store Home Screen - The home screen should display a list
+        of options that a user can choose from.
+        o Show Available Books
+        o Show Checked Out Books
+        o Exit - closes out of the application
+
+    • Show Available Books - Displays a list of all books that are not
+        currently checked out. Display the Id, ISBN and Title of the book.
+        o Prompt the user to either select a book to check out, or exit to
+        go back to the home screen
+        o If the user wants to check out a book, prompt them for their
+        name
+        o Then check out the book
+
+    • Show Checked Out books - This displays a list of all the books
+        that are currently checked out. Display the Id, ISBN, Title and
+        Name of the person who has the book checked out. Prompt the
+        user to
+        o C - to Check In a book
+        o X - to go back to the home screen
+
+    • Check In a book - Prompt the user for the ID of the book they
+        want to check in.
+        o Check in the book with the specified id
+        o Go back to the home screen
+
+ */
+
+        The rest of the 20 books arrays.
+
+         books[4] = new Book(555, "978-0134694726", "Clean Code");
+         books[5] = new Book(666, "978-0132350884", "Refactoring: Improving the Design of Existing Code");
+         books[6] = new Book(777, "978-1492056251", "Java Performance: In-Depth Guide");
+         books[7] = new Book(888, "978-1449339616", "Spring in Action");
+         books[8] = new Book(999, "978-1617294945", "Kotlin in Action");
+         books[9] = new Book(1010, "978-0134177304", "Design Patterns: Elements of Reusable Object-Oriented Software");
+         books[10] = new Book(1111, "978-1491978917", "Microservices Patterns");
+         books[11] = new Book(1212, "978-1934356456", "Programming Groovy");
+         books[12] = new Book(1313, "978-1617292545", "Hibernate with Java");
+         books[13] = new Book(1414, "978-1491950357", "Docker Deep Dive");
+         books[14] = new Book(1515, "978-0596007125", "Learning Python");
+         books[15] = new Book(1616, "978-1492075166", "The Pragmatic Programmer");
+         books[16] = new Book(1717, "978-0137081073", "Test Driven Development: By Example");
+         books[17] = new Book(1818, "978-0321125217", "Agile Software Development");
+         books[18] = new Book(1919, "978-1491900864", "Building Microservices");
+         books[19] = new Book(2020, "978-0134291253", "Algorithms");
